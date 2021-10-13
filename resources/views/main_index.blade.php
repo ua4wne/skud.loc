@@ -266,8 +266,8 @@
                             <tr>
                                 <th>Имя</th>
                                 <th>Фамилия</th>
-                                <th>Карта №</th>
                                 <th>Организация</th>
+                                <th>Карта №</th>
                                 <th>Марка ТС</th>
                                 <th>Рег. №</th>
                                 <th>Событие</th>
@@ -432,10 +432,10 @@
                         $('#renter_id').val(obj.renter_id);
                         //$('.select2').css('width','100%').select2({allowClear:false});
                         $("#renter_id option[value='"+obj.renter_id+"']").attr("selected", "selected");
-                        $('#car_id').val(obj.car_id);
-                        $('.select2').css('width','100%').select2({allowClear:false});
-                        $("#car_id option[value='"+obj.car_id+"']").attr("selected", "selected");
-                        $('#car_num').val(obj.car_num);
+                        // $('#car_id').val(obj.car_id);
+                        // $('.select2').css('width','100%').select2({allowClear:false});
+                        // $("#car_id option[value='"+obj.car_id+"']").attr("selected", "selected");
+                        // $('#car_num').val(obj.car_num);
                     }
                 },
                 error: function (xhr, ajaxOptions, thrownError) {
